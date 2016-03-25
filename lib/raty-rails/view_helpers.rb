@@ -38,7 +38,7 @@ module Raty
           url:    url,
           number: number,
           cancel: cancel
-        }
+        }.merge(options)
 
         html_options.update({
           class: css,
